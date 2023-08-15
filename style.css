@@ -16,3 +16,8 @@
     --fw-m: 500;
     --fw-l: 700;
 }
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+}
