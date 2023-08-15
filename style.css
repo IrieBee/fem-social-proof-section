@@ -10,7 +10,7 @@
 
     --fs-s: 0.6rem;
     --fs-m: 0.9375rem;
-    --fs-l: 1.2rem;
+    --fs-l: 2.5rem;
 
     --fw-s: 400;
     --fw-m: 500;
@@ -20,4 +20,40 @@
 *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: var(--ff);
+    font-size: var(--fs-m);
+    color: var(--clr-primary-magenta-dark);
+    text-align: center;
+    padding: 5rem 2rem 2rem;
+}
+
+
+h1 {
+    font-size: var(--fs-l);
+    font-weight: var(--fw-l);
+    letter-spacing: -0.04em;
+    line-height: 0.8em;
+}
+
+section> p {
+    padding: 3em 0;
+}
+
+.attribution { 
+    font-size: var(--fs-s); 
+    margin-bottom: 0.5em;
+    /* text-align: center; */
+}
+
+.attribution a {
+    color: var(--clr-neutral-magenta-grey-dark); 
+}
+
+a:hover {
+    color: var(--clr-primary-pink);
+    transition-duration: 0.5s;
 }
