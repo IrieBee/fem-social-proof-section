@@ -45,7 +45,8 @@ h1, h2 {
 }
 
 section> p {
-    padding: 3em 0;
+    padding: 1.25em 0 2em;
+    line-height: 1.5em;
 }
 
 .rates {
