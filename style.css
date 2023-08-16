@@ -145,9 +145,8 @@ a:hover {
         grid-column: -3 / -1;
         grid-row: 2 / 3;
         gap: 1.85rem;
-        height: 90%;
+        height: 85%;
         align-items: center;
-
     }
     .rating {
         margin-left: calc(1.5rem + 2vw);
@@ -162,6 +161,9 @@ a:hover {
         padding-left: 2rem;
         padding-right: 1rem;
         width: 90%;
+    }
+    .card {
+        height: 100%;
     }
     .one {
         align-self: flex-start;
