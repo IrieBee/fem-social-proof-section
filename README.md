@@ -20,6 +20,7 @@ This is a solution to the Social proof section challenge from Frontend Mentor.
 
 * Use align-self: flex-end and flex-start to make 'stairs' from flexboxes.
 * Use function calc() for margin-left on rating box.
+* To fixed jumping around quote containers -> height: 100%
 
 ## Links
 
