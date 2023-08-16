@@ -21,6 +21,7 @@ This is a solution to the Social proof section challenge from Frontend Mentor.
 * Use align-self: flex-end and flex-start to make 'stairs' from flexboxes.
 * Use function calc() for margin-left on rating box.
 * To fixed jumping around quote containers -> height: 100%
+* background: vs background-image:
 
 ## Links
 
@@ -30,6 +31,9 @@ This is a solution to the Social proof section challenge from Frontend Mentor.
 ## Useful resources
 
 * https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-css-functions
+* https://www.w3schools.com/css/css3_backgrounds.asp#:~:text=CSS%20allows%20you%20to%20add,is%20closest%20to%20the%20viewer.
+* https://stackoverflow.com/a/39608030
+* https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
 
 ## Acknowledgements
 
