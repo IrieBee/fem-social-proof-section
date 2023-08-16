@@ -64,6 +64,17 @@ section> p {
     padding-bottom: 1rem;
 }
 
+.card {
+    background-color: var(--clr-primary-magenta-dark);
+    color: var(--clr-neutral-magenta-grey-light);
+    margin: 1rem;
+    border-radius: 0.5em;
+}
+
+h4 {
+    color: var(--clr-primary-pink);
+}
+
 .attribution { 
     font-size: var(--fs-xs); 
     margin-bottom: 0.5em;
