@@ -9,7 +9,8 @@
     --ff:  'League Spartan', sans-serif;
 
     --fs-xs: 0.7rem;
-    --fs-s: 0.9375rem;
+    /* --fs-s: 0.9375rem; */
+    --fs-s: 1rem;
     --fs-m: 1.1em;
     --fs-l: 2.5rem;
 
@@ -29,7 +30,7 @@ body {
     font-size: var(--fs-m);
     color: var(--clr-neutral-magenta-grey-dark);
     text-align: center;
-    padding: 5rem 2rem 2rem;
+    padding: 5rem 1.45rem 2rem;
 }
 
 
@@ -47,6 +48,7 @@ h1, h2 {
 section> p {
     padding: 1.25em 0 2em;
     line-height: 1.5em;
+    font-weight: var(--fw-m);
 }
 
 .rates {
@@ -64,12 +66,18 @@ section> p {
     padding-bottom: 1rem;
 }
 
+.rates:last-child {
+    margin-bottom: 3rem;
+}
+
 .card {
     background-color: var(--clr-primary-magenta-dark);
     color: var(--clr-neutral-magenta-grey-light);
     margin: 1rem 0;
     border-radius: 0.5em;
-    padding: 2em 1.5em;
+    padding: 2.25em 2em;
+    font-size: var(--fs-s);
+    font-weight: var(--fw-m);
 }
 
 .buyers {
@@ -81,13 +89,19 @@ section> p {
 
 .avatar {
     border-radius: 50%;
-    width: 3rem;
+    width: 2.5rem;
+}
+
+.card> p {
+    line-height: 1.4;
+    text-align: left;
 }
 
 h4 {
     color: var(--clr-primary-pink);
     line-height: 1.6em;
     text-align: left;
+    font-weight: var(--fw-s);
 }
 
 .attribution { 
