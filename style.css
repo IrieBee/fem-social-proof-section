@@ -127,7 +127,7 @@ a:hover {
     transition-duration: 0.5s;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     main {
         display: grid;
         grid-template-columns: 2fr 3fr;
@@ -143,11 +143,24 @@ a:hover {
         grid-row: 2 / 3;
         gap: 1.85rem;
     }
+    .rating {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .rates {
         display: flex;
         gap: 2rem;
         align-items: center;
         padding-left: 2rem;
+        padding-right: 1rem;
+        width: 90%;
+    }
+    .one {
+        align-self: flex-start;
+    }
+    .three {
+        align-self: flex-end;
     }
     .stars {
         padding-bottom: 0;
