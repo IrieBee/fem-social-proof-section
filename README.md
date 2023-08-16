@@ -29,7 +29,7 @@ This is a solution to the Social proof section challenge from Frontend Mentor.
 
 ## Useful resources
 
-* 
+* https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-css-functions
 
 ## Acknowledgements
 
