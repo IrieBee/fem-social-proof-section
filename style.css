@@ -142,6 +142,9 @@ a:hover {
         grid-column: -3 / -1;
         grid-row: 2 / 3;
         gap: 1.85rem;
+        height: 90%;
+        align-items: center;
+
     }
     .rating {
         display: flex;
@@ -168,6 +171,7 @@ a:hover {
     .rates:last-child {
         margin-bottom: 0;
     }
+  
     h1{
         font-size: var(--fs-xl);
     }
