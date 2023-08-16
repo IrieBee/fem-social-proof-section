@@ -14,10 +14,12 @@ This is a solution to the Social proof section challenge from Frontend Mentor.
   * HTML
   * CSS
   * Flexbox
+  * Grid
 
 ### What I learned
 
-* 
+* Use align-self: flex-end and flex-start to make 'stairs' from flexboxes.
+* Use function calc() for margin-left on rating box.
 
 ## Links
 
