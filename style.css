@@ -13,6 +13,7 @@
     --fs-s: 1rem;
     --fs-m: 1.1em;
     --fs-l: 2.5rem;
+    --fs-xl: 3.5rem;
 
     --fw-s: 400;
     --fw-m: 500;
@@ -75,7 +76,7 @@ section> p {
     color: var(--clr-neutral-magenta-grey-light);
     margin: 1rem 0;
     border-radius: 0.5em;
-    padding: 2.25em 2em;
+    padding: 2.6em 2em;
     font-size: var(--fs-s);
     font-weight: var(--fw-m);
 }
@@ -117,4 +118,40 @@ h4 {
 a:hover {
     color: var(--clr-primary-pink);
     transition-duration: 0.5s;
+}
+
+@media (min-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+        grid-template-rows: repeat(2, 1fr);
+        gap: 1rem;
+        max-width: 1110px;
+        align-items: center;
+        margin: auto;
+    }
+    .quotes {
+        display: flex;
+        grid-column: -3 / -1;
+        grid-row: 2 / 3;
+        gap: 1.85rem;
+    }
+    .rates {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        padding-left: 2rem;
+    }
+    .stars {
+        padding-bottom: 0;
+    }
+    .rates:last-child {
+        margin-bottom: 0;
+    }
+    h1{
+        font-size: var(--fs-xl);
+    }
+    h1, p {
+        text-align: left;
+    }
 }
