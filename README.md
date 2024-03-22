@@ -7,7 +7,7 @@ This is a solution to the Social proof section challenge from Frontend Mentor.
 
 ### Screenshot
 
-![screenshot](https://github.com/ltsyBitsy/fem-social-proof-section/blob/main/images/screenshot.jpg)
+![screenshot](https://github.com/IrieBee/fem-social-proof-section/blob/main/images/screenshot.jpg)
 
 ## Built with
 
@@ -25,8 +25,8 @@ This is a solution to the Social proof section challenge from Frontend Mentor.
 
 ## Links
 
-* Solution URL: https://github.com/ltsyBitsy/fem-social-proof-section
-* Live Site URL: https://ltsybitsy.github.io/fem-social-proof-section/
+* Solution URL: https://github.com/IrieBee/fem-social-proof-section
+* Live Site URL: https://IrieBee.github.io/fem-social-proof-section/
 
 ## Useful resources
 
